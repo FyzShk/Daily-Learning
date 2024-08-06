@@ -1,11 +1,29 @@
+<!-- Creating a Vertically Alligned form using CSS display property and without using the br tag -->
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Vertically Alligned Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <form action="NA" method="get" autocomplete="on">
+    <div>
+        <label for="Name">Full Name</label>
+        <input type="text" name="Name" id="Name" placeholder="Write your full name here" autocomplete="username" >
+    </div>
+    <div>
+        <label for="City">Select your City</label>
+        <select name="City" id="City">
+            <option value="Mumbai">Mumbai</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Goa">Goa</option>
+            <option value="Jaipur">Jaipur</option>
+            <option value="Pune">Pune</option>
+    </div>
+</form>
 </body>
 </html>
