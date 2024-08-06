@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Categories</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 2em 0;
+        }
+
+        .category {
+            margin-bottom: 2em;
+        }
+
+        .category h2 {
+            color: #333;
+            margin-bottom: 0.5em;
+        }
+
+        .media-item {
+            background-color: white;
+            padding: 1em;
+            margin-bottom: 1em;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            align-items: center;
+        }
+
+        .media-item video,
+        .media-item audio {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Media Categories</h1>
+    </header>
+    <div class="container">
+        <div class="category" id="videos">
+            <h2>Videos</h2>
+            <div class="media-item">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/4_TyhOeTWyQ?si=3FnOGBu9cvh4o3xj"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>Description of video 1</p>
+            </div>
+            <div class="media-item">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/xnMeTbUVsOM?si=wOaMeVvpKjPafHlU"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>Description of video 2</p>
+            </div>
+        </div>
+        <div class="category" id="audio">
+            <h2>Audio</h2>
+            <div class="media-item">
+                <audio controls>
+                    <source src="AUGHHHH Mega Bass Boosted.mp3" type="audio/mp3">
+                </audio>
+                <p>AUGGHHH Mega Bass Boosted</p>
+            </div>
+            <div class="media-item">
+                <audio src="Elevator Music (Kevin MacLeod) - Background Music (HD).mp3" controls autoplay loop>
+                </audio>
+                <p>Elevator Music</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
