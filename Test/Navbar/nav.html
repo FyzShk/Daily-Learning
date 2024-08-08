@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            --textcolo: #c5aa6a;
+            --backgroundco: #2f2626;
+            --font: "Poppins";
+            --hoverco: #5f4c4c;
+            --sechoverco: 404040;
+        }
+
+        .navbar {
+            position: sticky;
+            text-align: right;
+            background-color: var(--backgroundco);
+            padding: 40px;
+        }
+
+        .navbar li {
+            display: inline;
+            list-style: none;
+            color: var(--textcolo);
+            padding: 15px;
+            margin: 2px;
+            border: 2px solid;
+            border-radius: 20px;
+            font-family: var(--font), sans-serif;
+            font-weight: 900;
+            font-style: normal;
+        }
+        .navbar li:hover {
+            display: inline;
+            list-style: none;
+            background-color: var(--hoverco);
+            color: var(--sechoverco);
+            padding: 15px;
+            margin: 2px;
+            border: 2px solid;
+            border-radius: 20px;
+            font-family: var(--font), sans-serif;
+            font-weight: 900;
+            font-style: normal;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="navbar">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Blog</li>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+    </nav>
+
+</body>
+
+</html>
