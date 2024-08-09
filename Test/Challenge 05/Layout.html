@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Layout</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+        </style>
+    <style>
+        :root{
+            --backgroundcolor: #e5b972;
+            --textcolor: #f9e9b0;
+            --hovcolor: #d1d782;
+            --hovtexcolor:#100801;
+            --navcolor: #c58940;
+            --deffont: "Poppins";
+        }
+        
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            background-color: var(--backgroundcolor);
+            font-family: var(--deffont);
+        }
+
+        .navbar{
+            text-align: center;
+            padding: 15px;
+            background-color: var(--navcolor);
+        }
+       
+        .navbar ul li{
+            list-style: none;
+            display: inline;
+            font-family: "poppins", "san-serif";
+            font-weight: 600;
+            font-size: small;
+            border: 1px solid var(--textcolor);
+            border-radius: 20px;
+            padding: 8px 10px;
+            margin: 2px;
+            color: var(--textcolor);
+            box-shadow: 0px 0px 5px lightgray;
+            
+
+        }
+        .navbar ul li:hover{
+            list-style: none;
+            display: inline;
+            font-family: "poppins", "san-serif";
+            font-weight: 600;
+            font-size: medium;
+            border: 1px solid var(--textcolor);
+            border-radius: 20px;
+            padding: 8px 10px;
+            margin: 2px;
+            color: var(--textcolor);           
+
+        }
+
+        .mainboxes{
+            display: inline-block;
+            
+        }
+
+        .boxes{
+            
+        }
+
+        
+    </style>
+</head>
+
+<body>
+   <nav>
+        <div class="navbar">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="mainboxes"> 
+        <div class="boxes">
+            <img src="" alt="">
+            <p>this is a box1</p>
+        </div>
+        <div class="boxes">
+            <img src="" alt="">
+            <p>this is a box2</p>
+        </div>
+
+    </main>
+
+    <article>
+            <div class="Sigma">
+                <h2>Welcome to Sigma Web Development Course</h2>
+            </div>
+    </article>
+
+    <footer>
+        <p>Copyright Reserved @2024</p>
+    </footer>
+
+</body>
+
+</html>
