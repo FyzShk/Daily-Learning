@@ -28,7 +28,7 @@
             font-family: var(--deffont);
         }
 
-        .mainnav{
+        .mainnav {
             position: fixed;
             width: 100%;
         }
@@ -40,7 +40,6 @@
         }
 
         .navbar ul li {
-            width: 100vw;
             list-style: none;
             display: inline;
             font-family: "poppins", "san-serif";
@@ -80,36 +79,37 @@
             display: inline-block;
             width: 655px;
             height: 60vh;
-            margin: 85px;
+            margin: 55px;
             text-align: center;
             box-sizing: border-box;
         }
 
-        .boxes img{
+        .boxes img {
             width: fit-content;
             height: 100%;
             border-radius: 25px;
-            box-shadow: 0px 0px 12px ;
+            box-shadow: 0px 0px 12px;
+            margin-top: 50px;
         }
 
-        .boxes img:hover{
+        .boxes img:hover {
             cursor: pointer;
         }
 
-        .boxes p{
+        .boxes p {
             text-align: center;
             font-family: var(--deffont);
             margin-top: 5px;
         }
 
-        .boxes p:hover{
+        .boxes p:hover {
             text-align: center;
             font-family: var(--deffont);
             text-decoration: underline;
             margin-top: 5px;
         }
 
-        .Sigma h2{
+        .Sigma h2 {
             /* border: 1px solid var(--navcolor); */
             padding: 100px;
             text-align: center;
@@ -117,8 +117,9 @@
             font-size: 50px;
             margin-bottom: 10px;
         }
-        .Sigma h2:hover{
-            
+
+        .Sigma h2:hover {
+
             padding: 100px;
             text-align: center;
             background-color: antiquewhite;
@@ -127,16 +128,36 @@
             color: #c58940;
             margin-bottom: 10px;
             cursor: pointer;
-                        
+
         }
 
-        footer>p{
+        footer>p {
             text-align: center;
         }
 
+        .parent{
+            /* position: absolute; */
+        }
 
+        .logo{
+            position: fixed;         
+            width: 50px;
+            height: 50px;
+            padding: 10px;
+            margin: 10px;
+            bottom: 0;
+            left: 92vw;
 
+            
+        }
 
+        .logo img{
+            width: 100%;
+            height: 100%;
+            
+            
+        }
+        
     </style>
 </head>
 
@@ -154,12 +175,16 @@
 
     <main class="mainboxes">
         <div class="boxes">
-            <img src="https://images.unsplash.com/photo-1433838552652-f9a46b332c40?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="400px" height="300px" alt="this is your image">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur fugit quisquam tempore alias nulla eligendi optio quaerat laborum fugiat maiores, natus exercitationem at?</p>
+            <img src="https://images.unsplash.com/photo-1433838552652-f9a46b332c40?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                width="400px" height="300px" alt="this is your image">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur fugit quisquam tempore alias nulla
+                eligendi optio quaerat laborum fugiat maiores, natus exercitationem at?</p>
         </div>
         <div class="boxes">
-            <img src="https://images.unsplash.com/photo-1444090542259-0af8fa96557e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="400px" height="300px alt="this is your image">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur fugit quisquam tempore alias nulla eligendi optio quaerat laborum fugiat maiores, natus exercitationem at?</p>
+            <img src="https://images.unsplash.com/photo-1444090542259-0af8fa96557e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                width="400px" height="300px alt=" this is your image">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur fugit quisquam tempore alias nulla
+                eligendi optio quaerat laborum fugiat maiores, natus exercitationem at?</p>
         </div>
 
     </main>
@@ -169,6 +194,12 @@
             <h2>Welcome to Sigma Web Development Course</h2>
         </div>
     </article>
+
+    <div class="parent">
+    <div class="logo">
+        <img src="chatbot.png" width="50px" height="50px" alt="Chatbot">
+    </div>
+</div>
 
     <footer>
         <p>Copyright Reserved@2024</p>
