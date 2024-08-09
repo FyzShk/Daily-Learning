@@ -28,6 +28,11 @@
             font-family: var(--deffont);
         }
 
+        .mainnav{
+            position: fixed;
+            width: 100%;
+        }
+
         .navbar {
             text-align: center;
             padding: 15px;
@@ -35,6 +40,7 @@
         }
 
         .navbar ul li {
+            width: 100vw;
             list-style: none;
             display: inline;
             font-family: "poppins", "san-serif";
@@ -61,6 +67,7 @@
             padding: 8px 10px;
             margin: 2px;
             color: var(--textcolor);
+            cursor: pointer;
 
         }
 
@@ -85,6 +92,10 @@
             box-shadow: 0px 0px 12px ;
         }
 
+        .boxes img:hover{
+            cursor: pointer;
+        }
+
         .boxes p{
             text-align: center;
             font-family: var(--deffont);
@@ -99,7 +110,7 @@
         }
 
         .Sigma h2{
-            border: 1px solid var(--navcolor);
+            /* border: 1px solid var(--navcolor); */
             padding: 100px;
             text-align: center;
             background-color: antiquewhite;
@@ -107,7 +118,7 @@
             margin-bottom: 10px;
         }
         .Sigma h2:hover{
-            border: 1px solid var(--navcolor);
+            
             padding: 100px;
             text-align: center;
             background-color: antiquewhite;
@@ -115,6 +126,7 @@
             text-decoration: underline;
             color: #c58940;
             margin-bottom: 10px;
+            cursor: pointer;
                         
         }
 
@@ -129,7 +141,7 @@
 </head>
 
 <body>
-    <nav>
+    <nav class="mainnav">
         <div class="navbar">
             <ul>
                 <li>Home</li>
@@ -159,7 +171,7 @@
     </article>
 
     <footer>
-        <p>Copyright Reserved @2024</p>
+        <p>Copyright Reserved@2024</p>
     </footer>
 
 </body>
