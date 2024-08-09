@@ -39,13 +39,26 @@
 
         .navbar li{            
             list-style: none;
-            font-family: 'Segoe UI';
+            font-family: 'Segoe UI'; 
+            display: flex; 
+            cursor: pointer;          
+            
+        }
+
+        .navbar li img{
+            padding: 8px;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
         }
 
         .langlogo{
             width: 24px;
             height: 24px;
+            cursor: pointer;
         }
+
+        
 
         
     </style>
@@ -55,10 +68,10 @@
         <nav>
             <div class="Logo"><img src="https://www.ultraedit.com/wp-content/uploads/2023/01/UE-Logo-1.webp" alt="UltraEdit Logo"></div>
             <ul class="navbar">
-                <li>Products</li>
-                <li>Pricing</li>
-                <li>Resources</li>
-                <li>About us</li>
+                <li>Products <img src="https://www.svgrepo.com/show/80156/down-arrow.svg" width="10px" alt=""></li>
+                <li>Pricing <img src="https://www.svgrepo.com/show/80156/down-arrow.svg" width="10px" alt=""></li>
+                <li>Resources <img src="https://www.svgrepo.com/show/80156/down-arrow.svg" width="10px" alt=""></li>
+                <li>About us <img src="https://www.svgrepo.com/show/80156/down-arrow.svg" width="10px" alt=""></li>
                 <div class="langlogo"><img src="https://www.ultraedit.com/wp-content/themes/Divi_Child/img/Lang.png" alt="language Logo"></div>
             </ul>
         </nav>
