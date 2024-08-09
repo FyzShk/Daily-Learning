@@ -7,34 +7,34 @@
     <title>Website Layout</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
-        </style>
+    </style>
     <style>
-        :root{
+        :root {
             --backgroundcolor: #e5b972;
             --textcolor: #f9e9b0;
             --hovcolor: #d1d782;
-            --hovtexcolor:#100801;
+            --hovtexcolor: #100801;
             --navcolor: #c58940;
             --deffont: "Poppins";
         }
-        
-        *{
+
+        * {
             margin: 0;
             padding: 0;
         }
 
-        body{
+        body {
             background-color: var(--backgroundcolor);
             font-family: var(--deffont);
         }
 
-        .navbar{
+        .navbar {
             text-align: center;
             padding: 15px;
             background-color: var(--navcolor);
         }
-       
-        .navbar ul li{
+
+        .navbar ul li {
             list-style: none;
             display: inline;
             font-family: "poppins", "san-serif";
@@ -46,10 +46,11 @@
             margin: 2px;
             color: var(--textcolor);
             box-shadow: 0px 0px 5px lightgray;
-            
+
 
         }
-        .navbar ul li:hover{
+
+        .navbar ul li:hover {
             list-style: none;
             display: inline;
             font-family: "poppins", "san-serif";
@@ -59,25 +60,35 @@
             border-radius: 20px;
             padding: 8px 10px;
             margin: 2px;
-            color: var(--textcolor);           
+            color: var(--textcolor);
 
         }
 
-        .mainboxes{
+        .mainboxes {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .boxes {
             display: inline-block;
-            
+            width: 655px;
+            height: 60vh;
+            margin: 85px;
+            text-align: center;
+            box-sizing: border-box;
         }
 
-        .boxes{
-            
+        .boxes img{
+            width: fit-content;
+            height: 100%;
+            border-radius: 25px;
+            box-shadow: 0px 0px 5px whitesmoke;
         }
-
-        
     </style>
 </head>
 
 <body>
-   <nav>
+    <nav>
         <div class="navbar">
             <ul>
                 <li>Home</li>
@@ -88,22 +99,20 @@
         </div>
     </nav>
 
-    <main class="mainboxes"> 
+    <main class="mainboxes">
         <div class="boxes">
-            <img src="" alt="">
-            <p>this is a box1</p>
+            <img src="https://images.unsplash.com/photo-1433838552652-f9a46b332c40?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="400px" height="300px" alt="this is your image">
         </div>
         <div class="boxes">
-            <img src="" alt="">
-            <p>this is a box2</p>
+            <img src="https://images.unsplash.com/photo-1444090542259-0af8fa96557e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="400px" height="300px alt="this is your image">
         </div>
 
     </main>
 
     <article>
-            <div class="Sigma">
-                <h2>Welcome to Sigma Web Development Course</h2>
-            </div>
+        <div class="Sigma">
+            <h2>Welcome to Sigma Web Development Course</h2>
+        </div>
     </article>
 
     <footer>
