@@ -63,31 +63,36 @@
             display: grid;
             justify-content: center;
             align-content: center;
-            height: 250vh;
+            height: 85vh;
 
         }
 
         .container {
-            width: 70vw;
-            height: 220vh;
+            width: 65vw;
+            height: 64vh;
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
-            /* justify-content: center; */
+            justify-content: center;
             align-items: center;
             justify-items: center;
+            gap: 10px;
+            row-gap: 10px;
         }
-
+        
         .item {
+            
+            background-color: #f9f9f9;
             font-family: var(--deffont);
-            height: 200px;
-            width: 250px;
+            height: 197px;
+            width: 317px;
             text-align: center;
             font-size: larger;
 
         }
 
         .container div>p {
-            margin: 31px;
+            margin: 10px;
+            padding: 10px;
             font-size: small;
         }
 
@@ -98,7 +103,7 @@
             font-size: 12px;
             font-weight: 600;
             border-radius: 6px;
-
+            align-self: self-end;
         }
     </style>
 </head>
