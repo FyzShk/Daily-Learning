@@ -14,7 +14,42 @@
             position: absolute;
             bottom: 0;
             left: 0; 
+            animation: bounce 4s ease-in-out 1 normal 1s ;
+            animation: name duration timing-function delay iteration-count direction fill-mode;
         }
+        
+        @keyframes bounce{
+            0%{
+                transform: translateY(0);
+                /* animation-timing-function: cubic-bezier(0.59,-0.28, 0.74, 0.05);; */
+
+            }
+            20%{
+                transform: translateY(-300px) translateX(250px);
+                /* animation-timing-function: cubic-bezier(0.59,-0.28, 0.74, 0.05); */
+                background-color: yellow;
+            }
+            50%{
+                transform: translateX(500px); 
+                background-color: aquamarine;            
+
+
+            }
+
+            80%{
+                transform: translateY(-300px) translateX(750px);
+                /* animation-timing-function: cubic-bezier(0.59,-0.28, 0.74, 0.05); */
+                background-color: orangered;
+
+            }
+            
+            100%{
+                transform: translateX(1000px);
+                /* animation-timing-function: cubic-bezier(0.43, 0, 1, 1); */
+                background-color: black;
+
+            }
+        } 
 
         .container {
             position: relative;
@@ -29,7 +64,7 @@
 <body>
     <div class="container">
 
-        <div class="box">
+        <div class="box bounce">
         </div>
     </div>
     <!-- 
