@@ -67,3 +67,7 @@ body {
     padding-right: 28px;
     padding-left: 31px;
 }
+
+.navlist svg{
+    padding: 0px 5px;
+}
