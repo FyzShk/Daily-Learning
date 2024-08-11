@@ -9,6 +9,10 @@ body {
     font-family: sans-serif;
 }
 
+header {
+    background-color: black;
+}
+
 .nav {
     display: flex;
     align-items: center;
@@ -25,7 +29,8 @@ body {
 .nav img {
     padding-left: 10px;
     padding-right: 51px;
-    
+    cursor: pointer;
+
 }
 
 .navbar {
@@ -42,6 +47,10 @@ body {
     align-items: center;
 }
 
+.navlist li{
+    cursor: pointer;
+}
+
 .sub {
     display: flex;
     color: #aaa;
@@ -51,23 +60,164 @@ body {
     gap: 23px;
 }
 
+.sub div{
+    cursor: pointer;
+}
+
 .sub img {
     width: 32px;
     height: 32px;
     padding: 0;
+    cursor: pointer;
 }
 
-.lastnavsec{
+.lastnavsec {
     display: flex;
     /* gap: 13px; */
     justify-content: center;
 }
 
-.search img{
+.search img {
     padding-right: 28px;
     padding-left: 31px;
+    cursor: pointer;
 }
 
-.navlist svg{
+.navlist svg {
     padding: 0px 5px;
+}
+
+.section {
+    display: flex;
+    max-width: 100%;
+
+}
+
+.section-text {
+    position: absolute;
+    z-index: 10;
+    max-width: 100%;
+    font-family: sans-serif;
+    padding: 50px 50px;
+
+}
+
+.sectionimg img {
+    max-width: 100%;
+    width: 100vw;
+
+}
+
+.section-text :nth-child(1) {
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 25px;
+}
+
+.section-text :nth-last-child(2) {
+    font-size: 21px;
+    width: 644px;
+    padding-bottom: 50px;
+}
+
+.secbtn {
+    background-color: #0F79AF;
+    border-radius: 5px;
+    padding: 15px 62px;
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.secbtn2 {
+    background-color: #0F79AF;
+    border-radius: 5px;
+    padding: 13px 97px;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    font-family: sans-serif;
+    cursor: pointer;
+
+}
+
+.section3 {
+    background-color: white;
+    font-family: sans-serif;
+    color: black;
+    display: flex;
+}
+
+.sectext3 {
+    margin-top: 25px;
+    font-size: 45px;
+    width: 72%;
+}
+
+.sectext4 {
+    font-size: 24px;
+    margin-top: 25px;
+    width: auto;
+    font-weight: 400;
+}
+
+.secimg {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+.secimg img {
+    width: 227px;
+    height: 141px;
+    transition: box-shadow 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.secimg img:hover {
+    box-shadow: 0px 0px 7px 4px black;
+
+}
+
+.secflex {
+    display: flex;
+    max-width: 90vw;
+    margin: auto;
+    justify-content: center;
+    padding: 15px;
+}
+
+
+.footer {
+    display: flex;
+    max-width: 100vw;
+    margin: auto;
+    height: 150px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #222222;
+    color: #8197a4;
+    gap: 10px
+    ;
+}
+
+.footerlinks a{
+    color: #79b8f3;   
+    padding: 0px 5px; 
+
+}
+.footerlinks{
+    padding: 0px 15px;
+}
+
+.footertext{
+    font-size: 15px;
+    cursor:default;
+}
+
+.footer img{
+    cursor: pointer;
 }
