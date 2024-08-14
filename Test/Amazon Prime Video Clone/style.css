@@ -14,6 +14,7 @@ header {
 }
 
 .nav {
+    box-sizing: border-box;
     display: flex;
     align-items: center;
     gap: 19px;
@@ -96,7 +97,7 @@ header {
 }
 
 .section2{
-    
+
 }
 
 .sectextarea{
@@ -253,4 +254,14 @@ header {
 
 .footer img{
     cursor: pointer;
+}
+
+@media screen and (max-width: 1373px){
+    .nav{
+        background-color: black;
+    }
+
+
+
+    
 }
