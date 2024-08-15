@@ -42,5 +42,4 @@ let dictionary = {
     abnormalize: "to make abnormal."
 
 }
-
 console.log(dictionary)
