@@ -1,2 +1,2 @@
 # Project1
- Source code for my first project
+ This is where I keep all the things I learn daily
